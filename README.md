@@ -29,30 +29,29 @@ Este projeto é uma aplicação em **Python** com interface gráfica desenvolvid
 
 ## 1. Clone o Repositório
 
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-2. Execute o Script
+## 2. Execute o Script
 bash
 Copiar código
 python nome_do_script.py
-3. Interface Gráfica
+## 3. Interface Gráfica
 Ao executar o script, será aberta uma janela onde você pode:
 
 Inserir o nome do treinador e do cliente.
 Adicionar exercícios com informações como tipo de treino, repetições, séries, peso e observações.
 Gerar a ficha de treino em Excel e PDF.
-Estrutura do Projeto
-Banco de Dados
+## 4. Estrutura do Projeto
+- Banco de Dados
 O banco de dados local exercicios.db armazena a lista de exercícios disponíveis.
 A tabela exercicios é criada automaticamente na primeira execução.
-Exportação
+- Exportação
 Excel: Gerado pelo módulo openpyxl, criando um arquivo chamado Ficha_de_Exercicios.xlsx.
 PDF: Gerado pelo módulo reportlab, criando um arquivo chamado Ficha_de_Exercicios.pdf.
-Interface Gráfica
+## 5. Interface Gráfica
 Desenvolvida com Tkinter, inclui:
-Campos de entrada para nome do treinador e cliente.
-Combobox para seleção de exercícios.
-Exibição e gerenciamento dos exercícios adicionados.
+ ```bash
+ - Campos de entrada para nome do treinador e cliente.
+ - Campos para seleção de exercícios.
+ - Exibição e gerenciamento dos exercícios adicionados.
+```
 Imagem do aplicativo:
 ![Img1](https://github.com/paulohique/Gerador-de-Ficha-Academia/assets/107517476/a7ff47ac-cf65-4696-a73d-d5baa9a92c10)
